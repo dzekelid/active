@@ -7,7 +7,7 @@ info:
   description: Finds all FeaturedListings that point to active Listings
   version: 1.0.0
 host: openapi.etsy.com
-basePath: /v2/private
+basePath: /v2/private/
 schemes:
 - http
 produces:
@@ -22,6 +22,15 @@ paths:
         in scope active.
       operationId: getHomepagesPickersFeaturedListingPickerListingsActive
       x-api-path-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+      parameters:
+      - in: path
+        name: featured_listing_picker_id
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK
@@ -39,6 +48,13 @@ paths:
       description: Finds all FeaturedListings that point to active Listings
       operationId: getHomepagesListingsActive
       x-api-path-slug: homepageslistingsactive-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
       responses:
         200:
           description: OK

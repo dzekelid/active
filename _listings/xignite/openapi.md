@@ -4,7 +4,7 @@ x-collection-name: Xignite
 x-complete: 1
 info:
   title: Xignite Currencies
-  description: provide-realtime-currency-foreign-exchange-information-and-calculations
+  description: provide-realtime-currency-foreign-exchange-information-and-calculations-
   version: 1.0.0
 host: www.xignite.com/xCurrencies.json
 basePath: /XigniteCurrencies
@@ -16,11 +16,11 @@ consumes:
 - application/json
 paths:
   /ListActiveCurrencies:
-    post:
+    get:
       summary: List Active Currencies
       description: List supported currencies.
       operationId: postListactivecurrencies
-      x-api-path-slug: listactivecurrencies-post
+      x-api-path-slug: listactivecurrencies-get
       parameters:
       - in: body
         name: body
@@ -30,6 +30,7 @@ paths:
         200:
           description: OK
       tags:
+      - Market Data
       - List
       - Active
       - Currencies

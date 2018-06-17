@@ -1,19 +1,13 @@
 ---
 name: Etsy
 x-slug: etsy
-description: Etsy is a website that focuses on handmade and vintage items, as well
-  as art and craft supplies. The items include art, photography, clothing, jewelry,
-  edibles, quilts, and toys. Etsy is modeled after open craft fairs that give sellers
-  personal storefronts where they can list their goods. The company charges users
-  a flat listing fee (of 20 cents per items), and takes a commission of 3.5% off all
-  items sold. Since its launch in June 2005, the site has continually added new widgets
-  and features, and has seen corresponding growth.
-image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+description: Find handmade, vintage, and unique goods that express who you are.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "187"
 tags: Active
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,9 +15,9 @@ apis:
   x-api-slug: etsy
   description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
     in scope active.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//homepages/pickers/{featured_listing_picker_id}/listings/active
+  baseURL: https://openapi.etsy.com//v2/private///homepages/pickers/{featured_listing_picker_id}/listings/active
   tags: Home Pages,Pickers,Featured,Listing,Picker,Listings,Active
   properties:
   - type: x-openapi-spec
@@ -31,9 +25,9 @@ apis:
 - name: Etsy Get Homepages Listings Active
   x-api-slug: etsy
   description: Finds all FeaturedListings that point to active Listings
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//homepages/listings/active
+  baseURL: https://openapi.etsy.com//v2/private///homepages/listings/active
   tags: Home Pages,Listings,Active
   properties:
   - type: x-openapi-spec
@@ -41,9 +35,9 @@ apis:
 - name: Etsy Get Listings Active
   x-api-slug: etsy
   description: Finds all active Listing
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//listings/active
+  baseURL: https://openapi.etsy.com//v2/private///listings/active
   tags: Listings,Active
   properties:
   - type: x-postman-collection
@@ -53,9 +47,9 @@ apis:
 - name: Etsy Get Shops Shop Listings Active
   x-api-slug: etsy
   description: Finds all active Listings associated with a Shop
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/active
+  baseURL: https://openapi.etsy.com//v2/private///shops/{shop_id}/listings/active
   tags: Shops,Shop,Listings,Active
   properties:
   - type: x-postman-collection
@@ -65,9 +59,9 @@ apis:
 - name: Etsy Get Shops Shop Listings Inactive
   x-api-slug: etsy
   description: Retrieves Listings associated to a Shop that are inactive
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/inactive
+  baseURL: https://openapi.etsy.com//v2/private///shops/{shop_id}/listings/inactive
   tags: Shops,Shop,Listings,Inactive
   properties:
   - type: x-postman-collection
@@ -77,9 +71,9 @@ apis:
 - name: Etsy Get Shops Shop Listings Inactive Listing
   x-api-slug: etsy
   description: Retrieves a Listing associated to a Shop that is inactive
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private//shops/{shop_id}/listings/inactive/{listing_id}
+  baseURL: https://openapi.etsy.com//v2/private///shops/{shop_id}/listings/inactive/{listing_id}
   tags: Shops,Shop,Listings,Inactive,Listing
   properties:
   - type: x-postman-collection
@@ -93,15 +87,15 @@ apis:
     desktop and mobile devices. Applications built on the API will connect buyers
     with sellers, promote the handmade lifestyle, and support the craftspeople who
     sell on Etsy.
-  image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private
+  baseURL: https://openapi.etsy.com//v2/private/
   tags: Active
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
@@ -114,9 +108,23 @@ x-common:
 - type: x-copyright
   url: https://www.etsy.com/help/article/482/?ref=ftr
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/etsy
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/etsy
 - type: x-developer
   url: https://www.etsy.com/developers/
+- type: x-email
+  url: enaffiliates@etsy.com
+- type: x-email
+  url: selleraffiliate@etsy.com
+- type: x-email
+  url: developer@etsy.com
+- type: x-email
+  url: legal@etsy.com
+- type: x-email
+  url: dpo@etsy.com
+- type: x-email
+  url: dispute-resolution@etsy.com
 - type: x-forum
   url: https://www.etsy.com/developers/discussion
 - type: x-github
@@ -131,6 +139,8 @@ x-common:
   url: https://twitter.com/Etsy
 - type: x-website
   url: http://www.etsy.com/
+- type: x-website
+  url: http://etsy.com
 include: []
 maintainers:
 - FN: Kin Lane
