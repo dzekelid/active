@@ -12,14 +12,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Active
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
 apis:
-- name: RingCentral
-  x-api-slug: ringcentral
-  description: this-is-an-interactive-api-explorer-for-the-ringcentral-connect-platform--to-use-this-service-you-will-need-to-have-a-developer-account---links--a-hrefhttpsnetstorage-ringcentral-comdpwapiexplorerrcplatform-basic-ymlv20180514092722-target-blankringcentral-api-specaspannbspnbspopenapi-fka-swagger-formatnbspnbspnbspnbspspana-hrefhttpsgithub-comoaiopenapispecification-target-blanklearn-more-about-openapia
+- name: RingCentral Connect Platform API Explorer - Get User Active Calls
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidactivecalls-get
+  description: "Returns records of all extension calls that are in progress, ordered
+    by start time in descending order.\nApp Permission\nReadCallLog\nUser Permission\nReadCallLog\nUsage
+    Plan Group\nHeavy\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [direction] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required\n\n\n401\nOAU-151\nAuthorization method not supported\n\n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadCallLog] permission\n\n\n403\nCMN-408\nIn
+    order to call this API endpoint, user needs to have [ReadCallLog] permission for
+    requested resource.\n\n\n404\nCMN-102\nResource for parameter [accountId] is not
+    found"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
   humanURL: http://www.ringcentral.com
   baseURL: https://platform.ringcentral.com//
@@ -30,23 +38,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidactivecalls-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidactivecalls-get-openapi.md
-- name: RingCentral
-  x-api-slug: ringcentral
-  description: 'RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise
-    unified communications and collaboration solutions. More flexible and cost-effective
-    than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and
-    distributed workforces to be connected anywhere and on any device through voice,
-    video, team messaging, collaboration, SMS, conferencing, online meetings, contact
-    center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s
-    leading business apps while giving customers the flexibility to customize their
-    own workflows.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
-  humanURL: http://www.ringcentral.com
-  baseURL: https://platform.ringcentral.com//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/ringcentral/openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/ringcentral-developers

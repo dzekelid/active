@@ -7,14 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Active
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
+- name: Dezrez.Rezi.Client.Api - Update SystemStatus of ScheduledTask to Active, Inactive,
+    Deleted or Archived.
+  x-api-slug: apibranchupdatescheduledtaskstatusid-post
+  description: Update systemstatus of scheduledtask to active, inactive, deleted or
+    archived..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
   humanURL: https://www.dezrez.com
   baseURL: https://api.dezrez.com//
@@ -24,99 +26,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
+- name: Dezrez.Rezi.Client.Api - Get the list of active tasks of a Todo
+  x-api-slug: apitodoactivetasks-get
+  description: Get the list of active tasks of a todo.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
   humanURL: https://www.dezrez.com
   baseURL: https://api.dezrez.com//
   tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
+- name: Dezrez.Rezi.Client.Api - Gets all the active features for an agency
+  x-api-slug: apienlistedfeaturegetvalidforagency-get
+  description: Gets all the active features for an agency.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
   humanURL: https://www.dezrez.com
   baseURL: https://api.dezrez.com//
   tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apienlistedfeaturegetvalidforagency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apienlistedfeaturegetvalidforagency-get-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apienlistedfeaturegetvalidforagency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apienlistedfeaturegetvalidforagency-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apigroupidsetgroupmemberstatus-put-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apibranchupdatescheduledtaskstatusid-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apitodoactivetasks-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apienlistedfeaturegetvalidforagency-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apienlistedfeaturegetvalidforagency-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apigroupidsetgroupmemberstatus-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/apiadminsystemsendnotificationtoallusersinagency-post-openapi.md
-- name: Dezrez
-  x-api-slug: dezrez
-  description: Cloud based estate agent software , sales & letting agent software,
-    estate agent website design and property management software - Dezrez  Services
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
-  humanURL: https://www.dezrez.com
-  baseURL: https://api.dezrez.com//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/dezrez/openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

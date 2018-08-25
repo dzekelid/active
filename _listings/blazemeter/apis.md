@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blaze
 x-kinRank: "8"
 x-alexaRank: "69236"
 tags: Active
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Blazemeter
-  x-api-slug: blazemeter
-  description: live-api-documentation
+- name: Blazemeter API Explorer - Get User Active Sessions
+  x-api-slug: useractivesessions-get
+  description: Get user active sessions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
   humanURL: http://blazemeter.com/
   baseURL: https://a.blazemeter.com//api/v4
@@ -25,32 +25,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractivesessions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractivesessions-get-openapi.md
-- name: Blazemeter
-  x-api-slug: blazemeter
-  description: live-api-documentation
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
-  humanURL: http://blazemeter.com/
-  baseURL: https://a.blazemeter.com//api/v4
-  tags: Testing, Testing, Performance, Stack Network, SaaS, Technology, Enterprise,
-    API Service Provider, API Provider, Profiles, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractivesessions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractivesessions-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractiveterminate-post-openapi.md
-- name: Blazemeter
-  x-api-slug: blazemeter
-  description: BlazeMeter platform for load and performance testing enables dev and
-    QA teams to run scalable and continuous testing for website, mobile, api and software
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
-  humanURL: http://blazemeter.com/
-  baseURL: https://a.blazemeter.com//api/v4
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bitly.api.gallery.streamdata.io

@@ -11,14 +11,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Active
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/aws-lightsale/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amazon Lightsale API
-  x-api-slug: amazon-lightsale-api
-  description: ""
+- name: AWS Lightsale API - Get Active Names
+  x-api-slug: actiongetactivenames-get
+  description: Returns the names of all active (not deleted) resources.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
   humanURL: https://amazonlightsail.com/
   baseURL: :///
@@ -29,21 +29,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/aws-lightsale/actiongetactivenames-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/aws-lightsale/actiongetactivenames-get-openapi.md
-- name: Amazon Lightsale API
-  x-api-slug: amazon-lightsale-api
-  description: Amazon Lightsail is the easiest way to get started with AWS for developers
-    who just need virtual private servers. Lightsail includes everything you need
-    to launch your project quickly - a virtual machine, SSD-based storage, data transfer,
-    DNS management, and a static IP - for a low, predictable price. You manage those
-    Lightsail servers through the Lightsail console or by using the API or command-line
-    interface (CLI).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png
-  humanURL: https://amazonlightsail.com/
-  baseURL: :///
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/aws-lightsale/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.lambda.api.gallery.streamdata.io

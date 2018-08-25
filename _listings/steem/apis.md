@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-stee
 x-kinRank: "7"
 x-alexaRank: "138048"
 tags: Active
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Steem
-  x-api-slug: steem
-  description: interactive-steem-api-lets-you-interact-with-steem-blockchain-and-make-a-request-get-output-and-start-implementing-new-apps-apis-have-default-parameters-set-to-get-you-started-and-see-how-request-works--api-list-is-compiled-from-steem-githubhttpsgithub-comsteemitsteem-1httpsgithub-comsteemitsteemtreemasterlibrariesappincludesteemitappapi-hpp-and-2httpsgithub-comsteemitsteemtreemasterlibrariesappincludesteemitappdatabase-api-hpp--if-you-want-to-contribute-documenting-detail-of-properties-and-output-contact-goodkarmahttpssteemit-chatdirectgoodkarma--you-can-also-check-full-list-here-steem-jshttpssteemjs-com
+- name: Interactive Steem API - get_active_witnesses
+  x-api-slug: get-active-witnesses-get
+  description: get_active_witnesses
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg
   humanURL: http://steemit.com
   baseURL: https://api.steemjs.com//
@@ -24,53 +24,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-witnesses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-witnesses-get-openapi.md
-- name: Steem
-  x-api-slug: steem
-  description: interactive-steem-api-lets-you-interact-with-steem-blockchain-and-make-a-request-get-output-and-start-implementing-new-apps-apis-have-default-parameters-set-to-get-you-started-and-see-how-request-works--api-list-is-compiled-from-steem-githubhttpsgithub-comsteemitsteem-1httpsgithub-comsteemitsteemtreemasterlibrariesappincludesteemitappapi-hpp-and-2httpsgithub-comsteemitsteemtreemasterlibrariesappincludesteemitappdatabase-api-hpp--if-you-want-to-contribute-documenting-detail-of-properties-and-output-contact-goodkarmahttpssteemit-chatdirectgoodkarma--you-can-also-check-full-list-here-steem-jshttpssteemjs-com
+- name: Interactive Steem API - get active categories
+  x-api-slug: get-active-categories-get
+  description: get tags
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg
   humanURL: http://steemit.com
   baseURL: https://api.steemjs.com//
   tags: Technology, SaaS, Blockchain, Content
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-witnesses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-witnesses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-categories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-categories-get-openapi.md
-- name: Steem
-  x-api-slug: steem
-  description: interactive-steem-api-lets-you-interact-with-steem-blockchain-and-make-a-request-get-output-and-start-implementing-new-apps-apis-have-default-parameters-set-to-get-you-started-and-see-how-request-works--api-list-is-compiled-from-steem-githubhttpsgithub-comsteemitsteem-1httpsgithub-comsteemitsteemtreemasterlibrariesappincludesteemitappapi-hpp-and-2httpsgithub-comsteemitsteemtreemasterlibrariesappincludesteemitappdatabase-api-hpp--if-you-want-to-contribute-documenting-detail-of-properties-and-output-contact-goodkarmahttpssteemit-chatdirectgoodkarma--you-can-also-check-full-list-here-steem-jshttpssteemjs-com
+- name: Interactive Steem API - get_active_votes
+  x-api-slug: get-active-votes-get
+  description: get_active_votes
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg
   humanURL: http://steemit.com
   baseURL: https://api.steemjs.com//
   tags: Technology, SaaS, Blockchain, Content
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-witnesses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-witnesses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-categories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-categories-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-votes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/get-active-votes-get-openapi.md
-- name: Steem
-  x-api-slug: steem
-  description: A new way for publishers to monetize their online content and community,
-    based on battle-tested blockchain technology.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg
-  humanURL: http://steemit.com
-  baseURL: https://api.steemjs.com//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/steem/openapi.md
 x-common:
 - type: x-openapi
   url: https://steem.esteem.ws/swagger.json

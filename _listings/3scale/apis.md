@@ -7,25 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Active
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 3scale
-  x-api-slug: 3scale
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://http://
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
-- name: 3Scale Account Management API
-  x-api-slug: 3scale-account-management-api
-  description: the-api-for-managing-3scale-accounts-
+- name: 3Scale Account Management API - ActiveDocs JSON Spec Update
+  x-api-slug: adminapiactive-docsid-xml-put
+  description: Activedocs json spec update.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
   baseURL: https://su1.3scale.net//
@@ -36,50 +25,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/adminapiactive-docsid-xml-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/adminapiactive-docsid-xml-put-openapi.md
-- name: 3Scale Account Management API
-  x-api-slug: 3scale-account-management-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
-- name: 3Scale Analytics API
-  x-api-slug: 3scale-analytics-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
-- name: 3Scale Billing API
-  x-api-slug: 3scale-billing-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
-- name: 3scale Service Management API
-  x-api-slug: 3scale-service-management-api
-  description: 3scales API Management platform gives you the tools you need to take
-    control of your API. Trusted by more customers than any other vendor.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
-  humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net//
-  tags: Active
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io
