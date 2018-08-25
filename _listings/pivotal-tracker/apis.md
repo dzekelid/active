@@ -7,32 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivo
 x-kinRank: "7"
 x-alexaRank: "15894"
 tags: Active
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Pivotal Tracker Get Tokens Active
+- name: Pivotal Tracker
   x-api-slug: pivotal-tracker
-  description: Returns an API token associated with the user. This method requires
-    HTTP Basic authentication.
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3///tokens/active
-  tags: Tokens,Active
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/tokensactive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/tokensactive-get-openapi.md
-- name: Pivotal Tracker Post Tokens Active
+- name: Pivotal Tracker
   x-api-slug: pivotal-tracker
-  description: Returns an API token associated with the user.
+  description: access-and-manipulate-agile-project-management-data-including-projects-stories-and-tasks-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3///tokens/active
-  tags: Tokens,Active
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/tokensactive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/tokensactive-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/tokensactive-post-postman.md
   - type: x-openapi-spec
@@ -49,14 +54,16 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/pivotal-tracker/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pingometer.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pivotal.tracker.stack.network
 - type: x-blog
   url: http://www.pivotaltracker.com/community/tracker-blog
 - type: x-blog
   url: http://www.pivotaltracker.com/feed
 - type: x-crunchbase
   url: https://crunchbase.com/organization/pivotaltracker
-- type: x-email
-  url: TRACKER@PIVOTAL.IO
 - type: x-faq
   url: https://www.pivotaltracker.com/faq
 - type: x-github

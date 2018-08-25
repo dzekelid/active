@@ -5,20 +5,32 @@ description: 3scales API Management platform gives you the tools you need to tak
   control of your API. Trusted by more customers than any other vendor.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
 x-kinRank: "10"
-x-alexaRank: "345437"
+x-alexaRank: "333433"
 tags: Active
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 3Scale Account Management API ActiveDocs JSON Spec Update
-  x-api-slug: 3scale-account-management-api
-  description: Activedocs json spec update.
+- name: 3scale
+  x-api-slug: 3scale
+  description: 3scales API Management platform gives you the tools you need to take
+    control of your API. Trusted by more customers than any other vendor.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
   humanURL: http://3scale.net
-  baseURL: https://su1.3scale.net////admin/api/active_docs/{id}.xml
-  tags: ActiveDocs,JSON,Spec
+  baseURL: https://http://
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
+- name: 3Scale Account Management API
+  x-api-slug: 3scale-account-management-api
+  description: the-api-for-managing-3scale-accounts-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/adminapiactive-docsid-xml-put-postman.md
@@ -35,7 +47,44 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
+- name: 3Scale Analytics API
+  x-api-slug: 3scale-analytics-api
+  description: 3scales API Management platform gives you the tools you need to take
+    control of your API. Trusted by more customers than any other vendor.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
+- name: 3Scale Billing API
+  x-api-slug: 3scale-billing-api
+  description: 3scales API Management platform gives you the tools you need to take
+    control of your API. Trusted by more customers than any other vendor.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
+- name: 3scale Service Management API
+  x-api-slug: 3scale-service-management-api
+  description: 3scales API Management platform gives you the tools you need to take
+    control of your API. Trusted by more customers than any other vendor.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/3scale/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://3scale.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://3scale.stack.network
 - type: x-blog
   url: http://www.3scale.net/blog/
 - type: x-blog-rss
@@ -67,7 +116,11 @@ x-common:
 - type: x-website
   url: http://
 - type: x-website
+  url: http://http
+- type: x-website
   url: http://www.3scale.net
+- type: x-website
+  url: ://
 include: []
 maintainers:
 - FN: Kin Lane

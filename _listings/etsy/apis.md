@@ -6,80 +6,85 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Active
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Homepages Pickers Featured Listing Picker Listings Active
+- name: Etsy
   x-api-slug: etsy
-  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
-    in scope active.
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///homepages/pickers/{featured_listing_picker_id}/listings/active
-  tags: Home Pages,Pickers,Featured,Listing,Picker,Listings,Active
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
-- name: Etsy Get Homepages Listings Active
+- name: Etsy
   x-api-slug: etsy
-  description: Finds all FeaturedListings that point to active Listings
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///homepages/listings/active
-  tags: Home Pages,Listings,Active
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepageslistingsactive-get-openapi.md
-- name: Etsy Get Listings Active
+- name: Etsy
   x-api-slug: etsy
-  description: Finds all active Listing
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///listings/active
-  tags: Listings,Active
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepageslistingsactive-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/listingsactive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/listingsactive-get-openapi.md
-- name: Etsy Get Shops Shop Listings Active
+- name: Etsy
   x-api-slug: etsy
-  description: Finds all active Listings associated with a Shop
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///shops/{shop_id}/listings/active
-  tags: Shops,Shop,Listings,Active
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/homepageslistingsactive-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/listingsactive-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/listingsactive-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/shopsshop-idlistingsactive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/shopsshop-idlistingsactive-get-openapi.md
-- name: Etsy Get Shops Shop Listings Inactive
-  x-api-slug: etsy
-  description: Retrieves Listings associated to a Shop that are inactive
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///shops/{shop_id}/listings/inactive
-  tags: Shops,Shop,Listings,Inactive
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/shopsshop-idlistingsinactive-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/shopsshop-idlistingsinactive-get-openapi.md
-- name: Etsy Get Shops Shop Listings Inactive Listing
-  x-api-slug: etsy
-  description: Retrieves a Listing associated to a Shop that is inactive
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///shops/{shop_id}/listings/inactive/{listing_id}
-  tags: Shops,Shop,Listings,Inactive,Listing
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/shopsshop-idlistingsinactivelisting-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/etsy/shopsshop-idlistingsinactivelisting-id-get-openapi.md
 - name: Etsy
   x-api-slug: etsy
   description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
@@ -97,6 +102,10 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://etsy.stack.network
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
 - type: x-base

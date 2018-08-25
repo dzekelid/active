@@ -6,20 +6,18 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Active
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/backupify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Backupify Retrieve the active backup for the specified backup_instance if
-    one exists
+- name: Backupify
   x-api-slug: backupify
-  description: Only backups belonging to backup_instances you have permission to access
-    can be retrieved
+  description: the-backupify-api-allows-you-to-integrate-the-leading-saas-backup-solution-into-your-software-making-it-easy-to-give-your-customers-the-data-protection-they-need--
   image: ""
   humanURL: http://backupify.com
-  baseURL: https://api.backupify.com////v1/backup_instances/{backup_instance_id}/backups/active
-  tags: V1,Backup,Instances,Backup,Instance,Id,Backups,Active
+  baseURL: https://api.backupify.com//
+  tags: API Not Found, API Provider, Backups, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/backupify/v1backup-instancesbackup-instance-idbackupsactive-get-postman.md
@@ -41,6 +39,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/backupify/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.virtual.network.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://backupify.stack.network
 - type: x-blog
   url: https://www.backupify.com/blog
 - type: x-website

@@ -6,18 +6,50 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth
 x-kinRank: "9"
 x-alexaRank: "4820"
 tags: Active
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Auth0 Stats API Get Active Users
-  x-api-slug: auth0-stats-api
-  description: Gets the active users count (logged in during the last 30 days).
+- name: Auth0 API
+  x-api-slug: auth0-api
+  description: The new way to solve Identity
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
   humanURL: https://auth0.com/
-  baseURL: https://login.auth0.com//stats//api/v2/stats/active-users
-  tags: Stats,Active,Users
+  baseURL: https://login.auth0.com/api/v2/
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/openapi.md
+- name: Auth0 Blacklists API
+  x-api-slug: auth0-blacklists-api
+  description: The new way to solve Identity
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com//blacklists
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/openapi.md
+- name: Auth0 Jobs API
+  x-api-slug: auth0-jobs-api
+  description: The new way to solve Identity
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com//jobs
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/openapi.md
+- name: Auth0 Stats API
+  x-api-slug: auth0-stats-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com//stats
+  tags: Authentication, OAuth, Auth, User, Target, Service Level Agreement, Stack
+    Network, Technology, SaaS, Enterprise, API Service Provider, Identities, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/apiv2statsactiveusers-get-postman.md
@@ -33,7 +65,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/openapi.md
+- name: Auth0 Users API
+  x-api-slug: auth0-users-api
+  description: The new way to solve Identity
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg
+  humanURL: https://auth0.com/
+  baseURL: https://login.auth0.com//users
+  tags: Active
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/auth0/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://attom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://auth0.stack.network
 - type: x-blog
   url: https://auth0.com/blog/
 - type: x-blog-rss
