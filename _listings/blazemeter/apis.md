@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blaze
 x-kinRank: "8"
 x-alexaRank: "69236"
 tags: Active
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractivesessions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractivesessions-get-openapi.md
+- name: Blazemeter API Explorer - Post User Active Terminate
+  x-api-slug: useractiveterminate-post
+  description: Post user active terminate.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1297-blazemeter.jpg
+  humanURL: http://blazemeter.com/
+  baseURL: https://a.blazemeter.com//api/v4
+  tags: Testing, Testing, Performance, Stack Network, SaaS, Technology, Enterprise,
+    API Service Provider, API Provider, Profiles, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/blazemeter/useractiveterminate-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bitly.api.gallery.streamdata.io

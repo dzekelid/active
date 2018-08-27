@@ -7,11 +7,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Active
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GIG & Crowd - Get Event Active
+  x-api-slug: apiv1eventactive-get
+  description: Get event active.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/gig--crowd/apiv1eventactive-get-openapi.md
 - name: GIG & Crowd - Get Finance Active
   x-api-slug: apiv1financeactive-get
   description: Get finance active.

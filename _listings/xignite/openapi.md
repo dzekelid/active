@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
@@ -14,4 +13,23 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /ListActiveCurrencies:
+    get:
+      summary: List Active Currencies
+      description: List supported currencies.
+      operationId: postListactivecurrencies
+      x-api-path-slug: listactivecurrencies-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Active
+      - Currencies

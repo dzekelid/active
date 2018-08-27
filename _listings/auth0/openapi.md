@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Auth0
 x-complete: 1
@@ -13,4 +12,17 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /api/v2/stats/active-users:
+    get:
+      summary: Get Active Users
+      description: Gets the active users count (logged in during the last 30 days).
+      operationId: get_active-users
+      x-api-path-slug: apiv2statsactiveusers-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stats
+      - Active
+      - Users

@@ -7,11 +7,59 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "264121"
 tags: Active
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/predix/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Analytics Framework - Create a scheduler job.
+  x-api-slug: apiv1schedulerjobs-post
+  description: Creates the scheduler job with a generated id. Set the state value
+    to 'Active' to start the job. Set the state value to 'Inactive' to avoid starting
+    the job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/predix/apiv1schedulerjobs-post-openapi.md
+- name: Analytics Framework - Update an existing scheduler job.
+  x-api-slug: apiv1schedulerjobsid-put
+  description: Updates the scheduled job. The updated changes will be effective from
+    the next scheduling of this job. To suspend a job, update the job with state value
+    'Inactive'. To resume a job, update the job with state value 'Active'.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/predix/apiv1schedulerjobsid-put-openapi.md
+- name: Analytics Runtime - Create a scheduler job.
+  x-api-slug: apiv1schedulerjobs-post
+  description: Creates the scheduler job with a generated id. Set the state value
+    to 'Active' to start the job. Set the state value to 'Inactive' to avoid starting
+    the job.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/predix/apiv1schedulerjobs-post-openapi.md
+- name: Analytics Runtime - Update an existing scheduler job.
+  x-api-slug: apiv1schedulerjobsid-put
+  description: Updates the scheduled job. The updated changes will be effective from
+    the next scheduling of this job. To suspend a job, update the job with state value
+    'Inactive'. To resume a job, update the job with state value 'Active'.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png
+  humanURL: https://www.predix.io
+  baseURL: https:////
+  tags: SaaS, Technology, Enterprise, Internet of Things, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/active/master/_listings/predix/apiv1schedulerjobsid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://predicthq.api.gallery.streamdata.io
